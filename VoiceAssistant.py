@@ -7,7 +7,6 @@ import webbrowser
 import datetime
 import wikipedia
 
-# Custom CSS to enhance the appearances
 st.markdown(
     """
     <style>
