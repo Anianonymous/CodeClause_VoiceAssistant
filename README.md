@@ -43,8 +43,8 @@ Date and time retrieval: Retrieves the current date and time using the datetime 
 Wikipedia search: Searches Wikipedia and displays a summary using the wikipedia library.
 
 ## Requirements
-Python 3.7 or higher.
-Required Python libraries: speech_recognition, streamlit, pywhatkit, pyttsx3, os, webbrowser, datetime, wikipedia.
+* Python 3.7 or higher.
+* Required Python libraries: speech_recognition, streamlit, pywhatkit, pyttsx3, os, webbrowser, datetime, wikipedia.
 
 ## Conclusion
 This Voice Assistant is a simple example of how to build a voice-controlled application using Python. You can extend the functionality of the Voice Assistant as per your requirements. Feel free to customize the code in your python file to add more features or modify the existing ones according to your requirements. You can explore the functions within the VoiceAssistant.py file to understand the implementation details and make necessary changes.
