@@ -13,3 +13,9 @@ Wikipedia search: Searches Wikipedia and displays a summary using the wikipedia 
 Requirements
 Python 3.7 or higher
 Required Python libraries: speech_recognition, streamlit, pywhatkit, pyttsx3, os, webbrowser, datetime, wikipedia
+
+
+
+https://github.com/Anianonymous/CodeClause_VoiceAssistant/assets/105560839/88fe854d-eac6-4e5a-a3eb-bbcc3aab5045
+
+
