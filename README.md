@@ -47,7 +47,7 @@ Python 3.7 or higher
 Required Python libraries: speech_recognition, streamlit, pywhatkit, pyttsx3, os, webbrowser, datetime, wikipedia
 
 ## Conclusion
-This Voice Assistant is a simple example of how to build a voice-controlled application using Python. You can extend the functionality of the Voice Assistant as per your requirements. Feel free to customize the code to add more features or modify the existing ones according to your requirements. You can explore the functions within the VoiceAssistant.py file to understand the implementation details and make necessary changes.
+This Voice Assistant is a simple example of how to build a voice-controlled application using Python. You can extend the functionality of the Voice Assistant as per your requirements. Feel free to customize the code in your python file to add more features or modify the existing ones according to your requirements. You can explore the functions within the VoiceAssistant.py file to understand the implementation details and make necessary changes.
 
 
 https://github.com/Anianonymous/CodeClause_VoiceAssistant/assets/105560839/88fe854d-eac6-4e5a-a3eb-bbcc3aab5045
