@@ -24,9 +24,9 @@ pip install speech_recognition pyttsx3 webbrowser wikipedia
 2. Clone the repository or download the project files.
 3. Open a terminal or command prompt and navigate to the project directory.
 4. Run the following command to start the Streamlit app:
-```python
-streamlit run VoiceAssistant.py
-```
+  ```python
+  streamlit run VoiceAssistant.py
+  ```
 6. The Streamlit app will launch in your default web browser.
 7. Click the "Start Listening" button to activate the voice recognition feature.
 8. Say a command or ask a question aloud, and the app will convert your speech into text.
