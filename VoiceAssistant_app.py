@@ -2,7 +2,6 @@ import streamlit as st
 import pywhatkit
 import speech_recognition as sr
 import pyttsx3
-import os
 import webbrowser
 import datetime
 import wikipedia
@@ -61,9 +60,6 @@ def get_audio():
         text = recognizer.recognize_google(audio)
         st.write(f"You said: {text}")
         speak("You said " + text)
-        # if you tell shutdown the system
-        if text == "shutdown":
-            shutdown_PC()
         return text
     except sr.UnknownValueError:
         st.warning("Sorry, I couldn't understand your speech. Please try again.")
@@ -71,11 +67,6 @@ def get_audio():
     except sr.RequestError:
         st.error("Sorry, there was an issue with the speech recognition service. Please try again later.")
         return ""
-
-
-# user-defined function to shutdown the system
-def shutdown_PC():
-    os.system("shutdown /s /t 1")
 
 
 # searches the text and displays the result
@@ -150,4 +141,3 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-
