@@ -35,12 +35,12 @@ pip install speech_recognition pyttsx3 webbrowser wikipedia
 10. Additional features can be accessed by expanding the "Additional Features" section within the app interface.
 
 ## Features
-Speech recognition: Converts spoken words into text using the speech_recognition library.
-Text-to-speech: Utilizes the pyttsx3 library to convert text into speech for auditory feedback.
-Web searching: Searches the web using the pywhatkit library based on user input.
-Website opening: Opens websites in the default web browser using the webbrowser library.
-Date and time retrieval: Retrieves the current date and time using the datetime library.
-Wikipedia search: Searches Wikipedia and displays a summary using the wikipedia library.
+* Speech recognition: Converts spoken words into text using the speech_recognition library.
+* Text-to-speech: Utilizes the pyttsx3 library to convert text into speech for auditory feedback.
+* Web searching: Searches the web using the pywhatkit library based on user input.
+* Website opening: Opens websites in the default web browser using the webbrowser library.
+* Date and time retrieval: Retrieves the current date and time using the datetime library.
+* Wikipedia search: Searches Wikipedia and displays a summary using the wikipedia library.
 
 ## Requirements
 * Python 3.7 or higher.
