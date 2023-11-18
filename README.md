@@ -4,7 +4,7 @@ This is a Python-based personal voice assistant application.
 It allows users to interact with their computer using voice commands for various tasks such as web searching, opening websites, 
 retrieving the date and time, and searching Wikipedia and more.
 
-## Requirements
+## Libraries
 The following packages are required to run the Voice Assistant:
 
 * speech_recognition
