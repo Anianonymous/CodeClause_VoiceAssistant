@@ -1,13 +1,13 @@
 """implemets the Personal Voice Assistant streamlit app"""
-import streamlit as st
-import pywhatkit
-import speech_recognition as sr
-import pyttsx3
-import os
-import webbrowser
-import datetime
-import wikipedia
 import cProfile
+import datetime
+import os
+import pywhatkit
+import pyttsx3
+import streamlit as st
+import speech_recognition as sr
+import webbrowser
+import wikipedia
 
 st.markdown(
     """
@@ -78,7 +78,7 @@ def get_audio():
 
 
 # user-defined function to shutdown the system
-def shutdown_PC():
+def shutdown_pc():
     """shuts down the pc"""
     os.system("shutdown /s /t 1")
 
