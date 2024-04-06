@@ -138,7 +138,16 @@ def main():
                 search_and_display(text)
 
     with st.expander("Additional Features"):
-        selected_feature = st.selectbox("Select a feature", ("Open Website", "Get Date and Time", "Search Wikipedia"))
+        # select_options = (
+        #     "Open Website",
+        #     "Get Date and Time",
+        #     "Search Wikipedia"
+        # )
+        # selected_feature = st.selectbox("Select a feature", select_options)
+        selected_feature = st.selectbox("Select a feature", (
+            "Open Website",
+            "Get Date and Time",
+            "Search Wikipedia"))
         if selected_feature == "Open Website":
             wesite_url = st.text_input("Enter the website URL")
             if st.button("Open Website"):
@@ -164,4 +173,4 @@ def main():
 
 
 if __name__ == "__main__":
-    cProfile.run(main())
+    cProfile.run('main()')
