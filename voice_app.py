@@ -2,11 +2,11 @@
 import cProfile
 import datetime
 import os
+import webbrowser
 import pywhatkit
 import pyttsx3
 import streamlit as st
 import speech_recognition as sr
-import webbrowser
 import wikipedia
 
 st.markdown(
