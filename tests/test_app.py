@@ -1,6 +1,6 @@
 """Tests the streamlit app"""
-from streamlit.testing.v1 import AppTest
 import os
+from streamlit.testing.v1 import AppTest
 
 
 def test_app():

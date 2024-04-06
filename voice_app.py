@@ -67,7 +67,7 @@ def get_audio():
         speak("You said " + text)
         # if you tell shutdown the system
         if text == "shutdown":
-            shutdown_PC()
+            shutdown_pc()
         return text
     except sr.UnknownValueError:
         st.warning("Sorry, I couldn't understand your speech. Please try again.")
@@ -129,7 +129,7 @@ def main():
     """operations regarding entered text or audio """
     st.title("Personal VoiceAssistant using Python")
 
-    col1, col2, col3 = st.columns(3)
+    _, col2, _ = st.columns(3)
 
     with col2:
         if st.button("Start Listening", key="start"):
@@ -138,12 +138,6 @@ def main():
                 search_and_display(text)
 
     with st.expander("Additional Features"):
-        # select_options = (
-        #     "Open Website",
-        #     "Get Date and Time",
-        #     "Search Wikipedia"
-        # )
-        # selected_feature = st.selectbox("Select a feature", select_options)
         selected_feature = st.selectbox("Select a feature", (
             "Open Website",
             "Get Date and Time",
