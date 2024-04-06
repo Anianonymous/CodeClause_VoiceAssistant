@@ -73,7 +73,7 @@ def get_audio():
         st.warning("Sorry, I couldn't understand your speech. Please try again.")
         return ""
     except sr.RequestError:
-        st.error("Sorry, there was an issue with the speech recognition service. Please try again later.")
+        st.error("Sorry, issue with the speech recognition Please try again later.")
         return ""
 
 
