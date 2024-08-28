@@ -9,14 +9,6 @@
 <h5><p align="center"><i>If you like the project, please ⭐ this repository to show your support! 🤩</i></p></h5>
 
 ## Intro
-Resume tracer is an Streamlit App which helps the user to upload the resume in PDF/DOC format. 
-After uploading, you get search bar to search for the keyword/s present in resume or not. 
-Then if the keywords/s are present or not present it displays it to you. I have dockerised the application and deployed on AWS using EC2 instamce and Elastic IP address.
-I have containerised the application. 
-
-Also the application can be run using terraform, when Terraform configuration sets up a local-exec provisioner within a null_resource, allowing you to execute a local shell command when applying or updating your Terraform configuration.
-
-## Introduction
 This is a Python-based personal voice assistant application. 
 It allows users to interact with their computer using voice commands for various tasks such as web searching, opening websites, 
 retrieving the date and time, and searching Wikipedia and more.
